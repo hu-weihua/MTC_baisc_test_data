@@ -17,7 +17,7 @@
 ### nginx hello world
 
 ```
-$ oc new-project ngnix_hello_world
+$ oc new-project ngnix-hello-world
 
 $ oc new-app --name nginx-hello --docker-image quay.io/redhattraining/hello-world-nginx:v1.0
 
